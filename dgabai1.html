@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+body { 
+    background-image: url("../space.jpg");
+}
+
+
+@font-face {
+    font-family: windsong;
+    src: url("../windsong.ttf");
+}
+
+
+h1 {
+    font-family: windsong;
+    src: url("../windsong.ttf");
+    font-size: 150px;
+    position: absolute;
+    z-index: 1;
+    padding: 50px;
+    margin: 80px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    
+    position: relative;
+   
+}
+
+
+#first {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: first;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes first {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+
+#second {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes second {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#third {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: third;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes third {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#fourth {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: fourth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes fourth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#fifth {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: fifth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes fifth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#sixth {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: sixth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes sixth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#seventh {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: seventh;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes seventh {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#eigth {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: eigth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes eigth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#ninth {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: ninth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes ninth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#tenth {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: tenth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes tenth {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#eleven {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: eleven;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes eleven {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#twelve {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: twelve;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes twelve {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#thirteen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: thirteen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes thirteen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+/* Standard syntax */
+@keyframes fourteen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#fourteen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: fourteen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes fifteen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#fifteen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: fifteen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes sixteen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#sixteen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: sixteen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes seventeen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#seventeen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: seventeen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Standard syntax */
+@keyframes eighteen {
+    0%   {background-color: #33ccff;}
+    25%  {background-color: #006600;}
+    25%  {background-color: #e6ffe6;}
+    35%  {background-color: #800033;}
+    50%  {background-color: #ffe6f0;}
+    75%  {background-color: #000080;}
+    100% {background-color: #e6e6ff;}
+}
+
+#eighteen {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #e6e6ff;
+    animation-name: eighteen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+</style>
+</head>
+<body>
+
+    <h1>Welcome to the Show!</h1>
+
+    <div class="container">
+        <p>
+            <div id="first"></div>
+        </p>
+
+        <p>
+            <div id="second"></div>
+        </p>
+
+        <p>
+            <div id="third"></div>
+        </p>
+
+        <p>
+            <div id="fourth"></div>
+        </p>
+
+        <p>
+            <div id="fifth"></div>
+        </p>
+
+        <p>
+            <div id="sixth"></div>
+        </p>
+
+        <p>
+            <div id="seventh"></div>
+        </p>
+
+        <p>
+            <div id="eigth"></div>
+        </p>
+
+         <p>
+            <div id="ninth"></div>
+        </p>
+
+        <p>
+            <div id="tenth"></div>
+        </p>
+
+        <p>
+            <div id="eleven"></div>
+        </p>
+
+        <p>
+            <div id="twelve"></div>
+        </p>
+
+        <p>
+            <div id="thirteen"></div>
+        </p>
+
+        <p>
+            <div id="fourteen"></div>
+        </p>
+
+         <p>
+            <div id="fifteen"></div>
+        </p>
+
+        <p>
+            <div id="sixteen"></div>
+        </p>
+
+        <p>
+            <div id="seventeen"></div>
+        </p>
+
+        <p>
+            <div id="eighteen"></div>
+        </p>
+
+    </div>
+
+</body>
+</html>
